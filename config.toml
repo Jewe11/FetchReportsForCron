@@ -1,0 +1,21 @@
+#Config for cron puller
+#canvas API token
+token = ""
+# base URL for your canvas api
+# "https://school.instructure.com/api/v1/"
+baseURL = ""
+# location of the folder named ~here~ that you would like to keep yor *.csv's
+# "C:\\Users\\theloniousMonk\\cron\\gradeBackUpMGP\\here"
+rootPath = ""
+#Filter out Terms that *contain* any of the following strings 
+#"Advisory , Clubs , LEAP"
+termFilter = ""
+#Filter out *.csv's that *contain* any of the following strings 
+# "DE,YR"
+csvFilter = ""
+# delete *.csv files in the app folder before you begin
+#lowercase "true" or "false"
+purgeFilesBefore =""
+# delete *.csv files in the app folder after you app finishes running
+#lowercase "true" or "false"
+purgeFilesAfter =""
